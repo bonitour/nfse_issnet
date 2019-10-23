@@ -5,9 +5,9 @@ module NfseIssnet
       attr_accessor :keys_root_path, :notas_fiscais_path, :errors_path
 
       def initialize(attributes = {})
-        # attributes = default_values.merge!(attributes)
-        # assign_attributes(attributes)
-        # convert_body_to_hash
+        attributes = default_values.merge!(attributes)
+        assign_attributes(attributes)
+        convert_body_to_hash
       end
 
       protected
